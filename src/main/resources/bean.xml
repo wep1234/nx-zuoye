@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans>
+	<bean name="user" class="com.nx.customIoc.po.User"  >
+		<property name="name" value = "wangep"/>
+		<property name="age" value="18"/>
+	</bean>
+	<bean name="role" class="com.nx.customIoc.po.Role">
+		<property name="name" value="admin"/>
+		<property name="user" ref="user"/>
+	</bean>
+</beans>

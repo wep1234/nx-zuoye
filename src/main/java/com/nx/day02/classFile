@@ -1,0 +1,80 @@
+u4             magic;                      CA FE BA BE
+u2             minor_version;              00 00          00
+u2             major_version;              00 34          52
+u2             constant_pool_count;        00 24          36
+cp_info constant_pool[constant_pool_count-1];（常量池）
+------------------------------------------------------------
+01  0A  10  CONSTANT_Methodref  u2 class_index  0005  5;    u2 name_and_type_index 0017 23;
+02  09  09  CONSTANT_Fieldref   u2 class_index  0018  24;   u2 name_and_type_index 0019 25;
+03  0A  10  CONSTANT_Methodref  u2 class_index  001A  26;   u2 name_and_type_index 001B 27;
+04  07  07  CONSTANT_Class      u2 name_index   001C  28;
+05  07  07  CONSTANT_Class      u2 name_index   001D  29;
+06  01  01  CONSTANT_Utf8       u2 length       0006  6;    u1 bytes[length]    3C 69 6E 69 74 3E;
+07  01  01  CONSTANT_Utf8       u2 length       0003  3;    u1 bytes[length]    28 29 56;
+08  01  01  CONSTANT_Utf8       u2 length       0004  4;    u1 bytes[length]    43 6F 64 65;
+09  01  01  CONSTANT_Utf8       u2 length       000F  15;   u1 bytes[length]    4C 69 6E 65 4E 75 6D 62 65 72 54 61 62 6C 65;
+10  01  01  CONSTANT_Utf8       u2 length       0012  18;   u1 bytes[length]    4C 6F 63 61 6C 56 61 72 69 61 62 6C 65 54 61 62 6C 65;
+11  01  01  CONSTANT_Utf8       u2 length       0004  04;   u1 bytes[length]    74 68 69 73;
+12  01  01  CONSTANT_Utf8       u2 length       0028  40;   u1 bytes[length]    4C 63  6F 6D 2F 6E 61 69 78 75  65 2F 76 69 70 2F 70 36 2F 6A 76 6D 2F 62 79 74 65 63 6F 64 65 2F 49 6E  74 54 65 73 74 3B;
+13  01  01  CONSTANT_Utf8       u2 length       0004  04;   u1 bytes[length]    6D 61 69 6E;
+14  01  01  CONSTANT_Utf8       u2 length       0016  22;   u1 bytes[length]    28 5B 4C 6A 61 76 61 2F 6C 61 6E 67 2F 53 74 72 69 6E 67 3B 29 56;
+15  01  01  CONSTANT_Utf8       u2 length       0004  04;   u1 bytes[length]    61 72 67 73
+16  01  01  CONSTANT_Utf8       u2 length       0013  19;   u1 bytes[length]    5B 4C 6A 61 76 61 2F 6C 61 6E 67 2F 53 74 72 69 6E 67 3B
+17  01  01  CONSTANT_Utf8       u2 length       0001  1;    u1 bytes[length]    61
+18  01  01  CONSTANT_Utf8       u2 length       0001  1;    u1 bytes[length]    49
+19  01  01  CONSTANT_Utf8       u2 length       0001  1;    u1 bytes[length]    62
+20  01  01  CONSTANT_Utf8       u2 length       0001  1;    u1 bytes[length]    63
+21  01  01  CONSTANT_Utf8       u2 length       000A  10;   u1 bytes[length]    53 6F 75 72 63 65 46 69 6C 65
+22  01  01  CONSTANT_Utf8       u2 length       000C  12;   u1 bytes[length]    49 6E 74 54 65 73 74 2E 6A 61 76 61
+23  0C  12  CONSTANT_NameAndType    u2 name_index   0006  06;  u2 descriptor_index  0007;
+24  07  07  CONSTANT_Class      u2 name_index   001E  30;
+25  0C  12  CONSTANT_NameAndType    u2 name_index   001F  31;  u2 descriptor_index  0020  32;
+26  07  07  CONSTANT_Class      u2 name_index   0021  33;
+27  0C  12  CONSTANT_NameAndType    u2 name_index   0022  34;  u2 descriptor_index  0023  35;
+28  01  01  CONSTANT_Utf8       u2 length       0026  38;   u1 bytes[length]    63 6F 6D 2F 6E 61 69 78 75  65 2F 76 69 70 2F 70 36 2F 6A 76 6D 2F 62 79 74  65 63 6F 64 65 2F 49 6E74 54 65 73 74
+29  01  01  CONSTANT_Utf8       u2 length       0010  16;   u1 bytes[length]    6A 61 76 61 2F 6C 61 6E 67 2F 4F 62 6A 65 63 74
+30  01  01  CONSTANT_Utf8       u2 length       0010  16;   u1 bytes[length]    6A 61 76 61 2F 6C 61 6E 67 2F 53 79 73  74 65 6D
+31  01  01  CONSTANT_Utf8       u2 length       0003  3;    u1 bytes[length]    6F 75 74
+32  01  01  CONSTANT_Utf8       u2 length       0015  21;   u1 bytes[length]    4C 6A 61 76 61 2F 69 6F 2F 50 72 69 6E 74 53 74 72 65 61 6D  3B
+33  01  01  CONSTANT_Utf8       u2 length       0013  19;   u1 bytes[length]    6A 61 76 61 2F 69 6F 2F 50 72 69 6E  74 53 74 72 65 61 6D
+34  01  01  CONSTANT_Utf8       u2 length       0007  07;   u1 bytes[length]    70 72 69 6E 74 6C 6E
+35  01  01  CONSTANT_Utf8       u2 length       0004  04;   u1 bytes[length]    28 49 29 56
+--------------------------------------------------------------------------------------------------------
+u2             access_flags;        0021      0x0001(ACC_PUBLIC)   0x0020(ACC_SUPER)(当前类的访问权限)
+u2             this_class;          0004(当前类的常量描述，指向Constant pool的index位置)
+u2             super_class;         0005(当前类的父类信息，指向Constant pool的index位置)
+u2             interfaces_count;    0000(当前类实现的接口数目)
+u2             interfaces[interfaces_count]; (包含interfaces_count个接口的全局限定名的索引的数组)
+u2             fields_count;        0000(类变量和实例变量的字段的数量总和)
+field_info fields[fields_count];
+u2             methods_count;       0002
+method_info    methods[methods_count];(u2  access_flags;u2 name_index;u2 descriptor_index;u2  attributes_count;attribute_info attributes[attributes_count];)
+----------------------------------------------------------------------------------------------------------
+01  u2 access_flags     0001 0x0001(ACC_PUBLIC);
+    u2 name_index       0006 06(Constant pool的index位置);
+    u2 descriptor_index 0007 07(Constant pool的index位置);
+    u2 attributes_count 0001 01(参数数量);
+    attribute_info attributes[attributes_count];(u2 attribute_name_index;u4 attribute_length;u1 info[attribute_length];)
+    01
+        u2 attribute_name_index     0008 08;
+        u4 attribute_length         0000002F 47;
+        u1 info[attribute_length]   00 01 00 01 00 00 00 05 2A B7 00 01 B1 00 00 00 02 00 09 00 00 00 06 00 01 00 00 00 14 00 0A 00 00 00 0C 00 01 00 00 00 05 00 0B 00 0C 00 00 ;
+02  u2 access_flags     0009 0x0001(ACC_PUBLIC)  0x0008(ACC_STATIC);
+    u2 name_index       000D 13;
+    u2 descriptor_index 000E 14;
+    u2 attributes_count 0001 01;
+    attribute_info attributes[attributes_count];
+    01
+        u2 attribute_name_index 0008;
+        u4 attribute_length  00000069 105;
+        u1 info[attribute_length] 00 02 00 04 00 00 00 11 10 64 3C 05 3D 1B 1C 60 3E B2 00 02 1D B6 00 03 B1 00 00 00 02 00 09 00 00 00 16 00 05 00 00 00 16 00 03 00 17 00 05 00 18 00 09 00 19 00 10 00 1A 00 0A 00 00 00 2A 00 04 00 00 00 11 00 0F 00 10 00 00 00 03 00 0E 00 11 00 12 00 01 00 05 00 0C 00 13 00 12 00 02 00 09 00 08 00 14 00 12 00 03
+-----------------------------------------------------------------------------------------------------------
+u2  attributes_count   0001 01;
+attribute_info attributes[attributes_count];
+01  u2 attribute_name_index         0015 21;
+    u4 attribute_length             00000002 02;
+    u1 info[attribute_length]       0016;
+
+
+
+

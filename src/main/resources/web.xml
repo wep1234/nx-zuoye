@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<web-app>
+<servlet>
+    <servlet-name>wep</servlet-name>
+    <servlet-class>com.nx.day16.tomcat.servlet.WepServlet</servlet-class>
+</servlet>
+
+
+<servlet-mapping>
+    <servlet-name>wep</servlet-name>
+    <url-pattern>/wep</url-pattern>
+</servlet-mapping>
+</web-app>
